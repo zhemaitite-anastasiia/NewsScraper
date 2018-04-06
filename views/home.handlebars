@@ -1,8 +1,11 @@
 <!--Homepage-->
 <div class="container">
-    <div class="col-md-12 jumbotron">
+    <div style="    width: 800px;
+    margin-left: 180px;
+    height: 300px;" class="col-md-12 jumbotron">
         <div class="text-center">
-            <h1> NewsScraper</h1>
+            <h1> NewsScraper </h1>
+            <h2 style="font-style: oblique;">The New York Times Edition</h2>
         </div>
 
     </div>
@@ -17,7 +20,7 @@
                     <p> {{this.summary}}</p>
                     <a href={{this.link}} target="_blank">{{this.link}}</a>
                     <br><br>
-                    <button type="button" class="btn btn-success save" data-id={{this._id}}>Save Article</button>
+                    <button style="background-color:#337ab7" type="button" class="btn btn-success save" data-id={{this._id}}>Save Article</button>
                 </div>
             </div>
             {{/each}}
